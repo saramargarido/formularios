@@ -2,9 +2,9 @@
 > Formulário responsivo criado com HTML, CSS, Bootstrap, JQuery e JavaScript.
 Esse projeto está sob a licença MIT.
 
-![](img_reademe/cadastrolg.png)
+![](cadastrolg.png)
 
-![](img_reademe/cadastro.png)
+![](cadastro.png)
 
 ## Contribuição
 
