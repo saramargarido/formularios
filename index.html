@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-  <html lang="pt-BR">
+<html lang="pt-BR">
   <head>
     <title>Formulário</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
@@ -144,9 +143,15 @@
         </div>
 
         <div>
-          <label for="option">Opções...?</label><br>
-          <label for="sim"><input type="radio" id="sim" value="sim" class="check">Sim</label>
-          <label for="nao"><input type="radio" id="nao" value="não" class="check ml-4">Não</label><br>
+          <label for="inlineRadio1">Opções...?</label><br>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Sim</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Não</label>
+          </div><br>
         </div> 
 
         <br> 
